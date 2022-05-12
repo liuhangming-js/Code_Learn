@@ -8,7 +8,7 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="Servlet/web/Web" />
-      <element id="library" level="project" name="lib" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/WEB-INF/lib" />
     </root>
   </artifact>
 </component>
