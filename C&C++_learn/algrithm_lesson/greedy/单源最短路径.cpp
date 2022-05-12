@@ -1,9 +1,13 @@
 #include<stdio.h>
+#include<iostream>
+#include<stack>
 
 const double MAXNUM = 100000;
 #define n 5
 
 void dijkstra(int v, double a[][n+1], double dist[], int prev[]);
+
+void find (int v, int i, int prev[]);
 
 int main() {
     printf("Min Route of 1 start:\n");
@@ -22,8 +26,10 @@ int main() {
     int prev[6];
 
     dijkstra(v, a, dist, prev);
-    for(int i = 1; i <= n; i++) 
-        printf("From node %d to %d is %lf\n", v, i, dist[i]);
+    for(int i = 1; i <= n; i++) {
+        printf("From node %d to %d is %lf\n ", v, i, dist[i]);
+        find(v, i, prev);
+    }
 
     return 0;
 }
@@ -61,5 +67,19 @@ void dijkstra(int v, double a[][n+1], double dist[], int prev[]) {
                     prev[j] = u;
                 }
             }
+    }
+}
+
+void find(int v, int i, int prev[]) {
+    stack<int> n;
+    int u = i;
+    while (prev[u] != v) {
+        n.push(prev[u]);
+        u = prev[u];
+    }
+    printf("%d", v);
+    while (! n.empty()) {
+        printf("->%d", n.top());
+        n.pop();
     }
 }
