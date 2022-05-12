@@ -70,16 +70,16 @@ void dijkstra(int v, double a[][n+1], double dist[], int prev[]) {
     }
 }
 
-void find(int v, int i, int prev[]) {
-    stack<int> n;
-    int u = i;
-    while (prev[u] != v) {
-        n.push(prev[u]);
-        u = prev[u];
-    }
-    printf("%d", v);
-    while (! n.empty()) {
-        printf("->%d", n.top());
-        n.pop();
-    }
-}
+// void find(int v, int i, int prev[]) {
+//     stack<int> n;
+//     int u = i;
+//     while (prev[u] != v) {
+//         n.push(prev[u]);
+//         u = prev[u];
+//     }
+//     printf("%d", v);
+//     while (! n.empty()) {
+//         printf("->%d", n.top());
+//         n.pop();
+//     }
+// }
