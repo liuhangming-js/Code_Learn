@@ -6,28 +6,32 @@ import javax.servlet.jsp.tagext.TagSupport;
 import java.io.IOException;
 
 public class WelcomeTag extends TagSupport {
-    @Override
+
+    private int num;
+
+    public void setNum(int num) {
+        this.num = num;
+    }
+
     public int doStartTag() throws JspException {
         JspWriter out = pageContext.getOut();
         try {
-            out.println("Welcome");
+            out.println("Welcome==="+ num * num);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return  SKIP_BODY;
+        return EVAL_BODY_INCLUDE;
     }
 
-    @Override
     public int doAfterBody() throws JspException {
         System.out.println("doAfterBody");
 
-        return 2;
+        return SKIP_BODY;
     }
 
-    @Override
     public int doEndTag() throws JspException {
         System.out.println("doEndTag");
 
-        return EVAL_PAGE;
+        return SKIP_PAGE;
     }
 }
