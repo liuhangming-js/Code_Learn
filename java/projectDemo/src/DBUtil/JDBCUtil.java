@@ -1,4 +1,4 @@
-package niit;
+package DBUtil;
 
 
 import java.sql.Connection;
@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class JDBCUtil {
 	
-	private static String url = "jdbc:mysql://localhost:3306/test?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC";
+	private static String url = "jdbc:mysql://47.95.122.198:3306/test?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
 	private static String user = "root";
-	private static String pwd = "123456";
+	private static String pwd = "L_hm8362006";
 	private static String driverName = "com.mysql.cj.jdbc.Driver";
 	// 数据库连接对象
 	private static Connection conn = null;
@@ -41,7 +41,7 @@ public class JDBCUtil {
 		}
 	}
 	//测试数据库是否能连接成功
-	public static void main(String[] args) {
-		JDBCUtil.getConnection();
-	}
+//	public static void main(String[] args) {
+//		JDBCUtil.getConnection();
+//	}
 }
