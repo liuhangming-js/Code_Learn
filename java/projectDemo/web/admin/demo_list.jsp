@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -56,36 +57,19 @@
                                 </tr>
                             </thead>
                             <tbody>
+                            <c:forEach items="${list }" var="stu">
                                 <tr class="gradeX">
-                                    <td>Tom</td>
-                                    <td>男</td>
-                                    <td>25</td>
+                                    <td>${stu.name}</td>
+                                    <td>${stu.sex}</td>
+                                    <td>${stu.age}</td>
                                     <td class="center">
                                         <a  href="#" >入库/</a>
                                         <a  href="#" >查看/</a>
                                         <a  href="#" >删除</a>
                                     </td>
                                 </tr>
-                                <tr class="gradeC">
-                                    <td>Alice</td>
-                                    <td>女</td>
-                                    <td>25</td>
-                                    <td class="center">
-                                        <a  href="#" >入库/</a>
-                                        <a  href="#" >查看/</a>
-                                        <a  href="#" >删除</a></td>
-                                </tr>
-                                <tr class="gradeA">
-                                    <td>Bob</td>
-                                    <td>男
-                                    </td>
-                                    <td>25</td>
-                                    <td class="center">
-                                        <a  href="#" >入库/</a>
-                                        <a  href="#" >查看/</a>
-                                        <a  href="#" >删除</a></td>
-                                </tr>
-                          
+                            </c:forEach>
+
                             </tbody>
                             <tfoot>
                                 <tr>

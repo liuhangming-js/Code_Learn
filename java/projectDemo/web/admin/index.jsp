@@ -48,7 +48,7 @@
                                 <a class="J_menuItem" href="add_demo.html">新增页面</a>
                             </li>
                             <li>
-                                <a class="J_menuItem" href="demo_list.html">列表查询</a>
+                                <a class="J_menuItem" href="listStudent.go">列表查询</a>
                             </li>
                            
                         </ul>
