@@ -1,0 +1,564 @@
+Index: .idea/libraries/Java_EE_6_Java_EE_6.xml
+===================================================================
+diff --git a/.idea/libraries/Java_EE_6_Java_EE_6.xml b/.idea/libraries/Java_EE_6_Java_EE_6.xml
+deleted file mode 100644
+--- a/.idea/libraries/Java_EE_6_Java_EE_6.xml	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ /dev/null	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
+@@ -1,16 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Java EE 6-Java EE 6">
+-    <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/.idea/runConfigurations.xml	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ /dev/null	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ /dev/null	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
+@@ -1,8 +0,0 @@
+-# 默认忽略的文件
+-/shelf/
+-/workspace.xml
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
+-# 基于编辑器的 HTTP 客户端请求
+-/httpRequests/
+Index: .idea/uiDesigner.xml
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+deleted file mode 100644
+--- a/.idea/uiDesigner.xml	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ /dev/null	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
+@@ -1,124 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Palette2">
+-    <group name="Swing">
+-      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+-      </item>
+-      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+-        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+-        <initial-values>
+-          <property name="text" value="Button" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="RadioButton" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="CheckBox" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="Label" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+-          <preferred-size width="-1" height="20" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+-      </item>
+-    </group>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../../C&C++_learn/test.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <stdio.h>\n#include <stdlib.h>\n#include <time.h>\n#include <string.h>\nusing namespace std;\n\nconst int maxn = 320;     //序列个数\nconst int max = maxn +20;//数组大小\nconst int maxp = max/10; //最大页数\n\nint inst[max];//指令序列\nint page[max];//页地址流\nint size;      //内存能容纳的页数\n\nbool in[maxp];  //该页是否在内存里，提高效率\nint pin[maxp];  //现在在内存里的页\n\nvoid welcome()\n{\n    printf(\"******************************************\\n\");\n    printf(\"**            æ\u0093\u008Dä½\u009Cç³»ç»\u009Fæ¨¡æ\u008B\u009Få®\u009Eéª\u008C\\t\\t**\\n\");\n    printf(\"**             é¡µå¼\u008Få\u00AD\u0098å\u0082¨ç®¡ç\u0090\u0086\\t\\t**\\n\");\n    printf(\"******************************************\\n\\n\");\n}\n\nvoid input_hint()\n{\n    printf(\"\\n1--create new instruction sequence      2--set memory page number(4 to 32)\\n\");\n    printf(\"3--solve by FIFO algorithm              4--solve by LRU algorithm\\n\");\n    printf(\"5--solve by OPT algorithm               0--exit\\n\");\n    printf(\"*********Please input Your choice:  \");\n}\n\n/*通过随机数产生一个指令序列，共320条*/\nvoid produce_inst()\n{\n    int m, n;\n    int num = 0;\n\n    while(num < maxn)\n    {\n        m = rand() % maxn;\n        inst[num++] = (m+1)%maxn;\n        if(num == maxn) break;\n\n        m = (m+2) % maxn;\n        if(m == 0) m = 160;\n        n = rand() % m;\n        inst[num++] = (n+1)%maxn;\n        if(num == maxn) break;\n\n        n = (n+2) % maxn;\n        m = maxn - n;\n        if(m == 0) m = 160;\n        m = rand() % m + n;\n        inst[num++] = m;\n    }\n}\n/*将指令序列转换为页地址流*/\nvoid turn_page_address()\n{\n    for(int i=0; i<maxn; i++){\n        page[i] = inst[i]/10;\n    }\n}\n\nvoid FIFO_solve()\n{\n    memset(in, false, sizeof(in));\n    int fault_n = 0;//缺页率\n    int ptr, i;\n\n    //预调页填满空间   \n    ptr = 0; //下一个要放的位置\n    for(i=0; i<maxn && ptr<size; i++)\n        if(!in[page[i]])\n        {\n            pin[ptr++] = page[i];\n            in[page[i]] = true;\n            fault_n++;\n        }\n\n    //继续执行剩下的指令\n    ptr = 0;//队列里最先进来的位置，即下一个要被替换的位置\n    for(; i<maxn; i++)\n        if(!in[page[i]])\n        {\n            /*--------------*/\n            //请补全该部分\n            /*--------------*/\n        }\n\n    printf(\"\\nBy FIFO algorithm, the fault-page number is:  %d\\n\", fault_n);\n    printf(\"                   the hit ratio is :  %.2lf\\n\", (1-(fault_n+0.0)/320.0));\n}\n\nvoid LRU_solve()\n{\n    int ltu[maxp]; //last_time_use\n    int ti = 1;    //æ¨¡æ\u008B\u009Fæ\u0097¶é\u0097´\n    int fault_n = 0;\n    memset(ltu, 0, sizeof(ltu));\n    memset(in, false, sizeof(in));\n    memset(pin, -1, sizeof(pin));\n\n    int min, ptr, i, j;\n    for(i=0; i<maxn; i++)\n    {\n        if(!in[page[i]])\n        {\n            //å¯»æ\u0089¾lru\n            min=1000000; ptr=0;\n            for(j=0; j<size; j++)\n            {\n                if(ltu[j] < min)\n                {\n                    /*--------------*/\n                    //è¯·è¡¥å\u0085¨è¯¥é\u0083¨å\u0088\u0086\n                    /*--------------*/\n                }\n            }\n            //æ\u009B¿æ\u008D¢æ\u0088\u0096å\u0086\u0099å\u0085¥ \n            if(pin[ptr] != -1){\n                 in[pin[ptr]] = false;\n            }\n            /*--------------*/\n            //è¯·è¡¥å\u0085¨è¯¥é\u0083¨å\u0088\u0086\n            /*--------------*/\n            fault_n++;\n            ltu[ptr] = ti++;\n        }\n        else//å·²ç»\u008Få\u009C¨å\u0086\u0085å\u00AD\u0098é\u0087\u008Cå\u0088\u0099å\u008Fªé\u009C\u0080æ\u009B´æ\u0094¹æ\u009C\u0080è¿\u0091ä½¿ç\u0094¨æ\u0097¶é\u0097´    \n    {\n            for(j=0; j<size; j++)\n                if(pin[j] == page[i])\n                {\n                    ltu[j] = ti++;\n                    break;\n                }\n        }\n    }\n\n    printf(\"\\nBy LRU algorithm, the fault-page number is:  %d\\n\", fault_n);\n    printf(\"                   the hit ratio is :  %.2lf\\n\", (1-(fault_n+0.0)/320.0));\n}\n\nvoid OPT_solve()\n{\n    int ntu[maxp];//next_time_use\n    int fault_n = 0;\n    int i, j;\n    memset(in, false, sizeof(in));\n    memset(ntu, -1, sizeof(ntu));\n\n    //é¢\u0084è°\u0083é¡µå¡«æ»¡\n    int ptr = 0;\n    for(i=0; i<maxn && fault_n<size; i++)\n    {\n        if(!in[page[i]])\n        {\n            in[page[i]] = true;\n            pin[ptr] = page[i];\n            fault_n++;\n            ptr++;\n        }\n    }\n\n    //å\u0088\u009Då§\u008Bå\u008C\u0096ntuæ\u0095°ç»\u0084\n    ptr = 0;\n    for(j=i; j<maxn && ptr<32; j++)\n    {\n        if(ntu[page[j]] == -1)\n        {\n            /*--------------*/\n            //è¯·è¡¥å\u0085¨è¯¥é\u0083¨å\u0088\u0086\n            /*--------------*/\n        }\n    }\n\n    int max;\n    for(; i<maxn; i++)\n    {\n        if(!in[page[i]])\n        {\n            max = 0;ptr = 0;\n            for(j=0; j<size; j++)\n            {\n                if(ntu[pin[j]] == -1)\n                {\n                    ptr = j;\n                    break;\n                }\n                if(ntu[pin[j]] > max)\n                {\n                    /*--------------*/\n                    //è¯·è¡¥å\u0085¨è¯¥é\u0083¨å\u0088\u0086\n                    /*--------------*/\n                }\n            }\n            in[pin[ptr]] = false;\n            in[page[i]] = true;\n            pin[ptr] = page[i];\n            fault_n++;\n        }\n\n        ntu[page[i]] = -1;\n        for(j=i+1; j<maxn; j++)\n            if(page[j] == page[i])\n            {\n                ntu[page[i]] = j;\n                break;\n            }\n    }\n\n    printf(\"\\nBy OPT algorithm, the fault-page number is:  %d\\n\", fault_n);\n    printf(\"                   the hit ratio is :  %.2lf\\n\", (1-(fault_n+0.0)/320.0));\n}\n\nint main()\n{\n    srand(time(NULL));\n    welcome();\n\n    int choice;\n    while(1)\n    {\n        input_hint();\n        scanf(\"%d\", &choice);\n        printf(\"\\n\");\n\n        if(choice == 0)\n        {\n            printf(\"BYE-BYE!!!\\n\");\n            break;\n        }\n        if(choice == 1)\n        {\n            produce_inst();\n            turn_page_address();\n            printf(\"New page address sequence is set OK!!!\\n\");\n        }\n        else if(choice == 2)\n        {\n            printf(\"Please input the size of memory page number:  \");\n            scanf(\"%d\", &size);\n        }\n        else if(choice == 3)\n            FIFO_solve();\n        else if(choice == 4)\n            LRU_solve();\n        else if(choice == 5)\n            OPT_solve();\n        else\n            printf(\"INPUT ERROR !!! \\n\");\n    }\n\n    return 0;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../C&C++_learn/test.cpp b/../../C&C++_learn/test.cpp
+--- a/../../C&C++_learn/test.cpp	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ b/../../C&C++_learn/test.cpp	(date 1653010690272)
+@@ -86,7 +86,11 @@
+         if(!in[page[i]])
+         {
+             /*--------------*/
+-            //请补全该部分
++            pin[ptr++] = page[i];
++			in[page[i]] = true;
++			in[page[ptr]] = false;
++			fault_n++;
++			ptr %= size;
+             /*--------------*/
+         }
+ 
+@@ -97,7 +101,7 @@
+ void LRU_solve()
+ {
+     int ltu[maxp]; //last_time_use
+-    int ti = 1;    //æ¨¡ææ¶é´
++    int ti = 1;    // 模拟时间
+     int fault_n = 0;
+     memset(ltu, 0, sizeof(ltu));
+     memset(in, false, sizeof(in));
+@@ -108,28 +112,30 @@
+     {
+         if(!in[page[i]])
+         {
+-            //å¯»æ¾lru
++            //寻找lru
+             min=1000000; ptr=0;
+             for(j=0; j<size; j++)
+             {
+                 if(ltu[j] < min)
+                 {
+                     /*--------------*/
+-                    //è¯·è¡¥å¨è¯¥é¨å
++                    ptr = j;
++					min = ltu[j];
+                     /*--------------*/
+                 }
+             }
+-            //æ¿æ¢æåå¥ 
++            //替换或写入
+             if(pin[ptr] != -1){
+                  in[pin[ptr]] = false;
+             }
+             /*--------------*/
+-            //è¯·è¡¥å¨è¯¥é¨å
++            in[page[i]] = true;
++			pin[ptr] = page[i];
+             /*--------------*/
+             fault_n++;
+             ltu[ptr] = ti++;
+         }
+-        else//å·²ç»å¨åå­éååªéæ´æ¹æè¿ä½¿ç¨æ¶é´    
++        else//已经在内存里则只需更改最近使用时间    
+     {
+             for(j=0; j<size; j++)
+                 if(pin[j] == page[i])
+@@ -152,7 +158,7 @@
+     memset(in, false, sizeof(in));
+     memset(ntu, -1, sizeof(ntu));
+ 
+-    //é¢è°é¡µå¡«æ»¡
++    //预调页填满
+     int ptr = 0;
+     for(i=0; i<maxn && fault_n<size; i++)
+     {
+@@ -165,14 +171,14 @@
+         }
+     }
+ 
+-    //åå§åntuæ°ç»
++    //初始化ntu数组
+     ptr = 0;
+     for(j=i; j<maxn && ptr<32; j++)
+     {
+         if(ntu[page[j]] == -1)
+         {
+             /*--------------*/
+-            //è¯·è¡¥å¨è¯¥é¨å
++            //请补全该部分
+             /*--------------*/
+         }
+     }
+@@ -193,7 +199,7 @@
+                 if(ntu[pin[j]] > max)
+                 {
+                     /*--------------*/
+-                    //è¯·è¡¥å¨è¯¥é¨å
++                    //请补全该部分
+                     /*--------------*/
+                 }
+             }
+Index: ../../python/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../python/main.py b/../../python/main.py
+new file mode 100644
+--- /dev/null	(date 1653365727661)
++++ b/../../python/main.py	(date 1653365727661)
+@@ -0,0 +1,1 @@
++print("Hello")
+Index: Servlet.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"JAVA_MODULE\" version=\"4\">\n  <component name=\"FacetManager\">\n    <facet type=\"web\" name=\"Web\">\n      <configuration>\n        <descriptors>\n          <deploymentDescriptor name=\"web.xml\" url=\"file://$MODULE_DIR$/web/WEB-INF/web.xml\" />\n        </descriptors>\n        <webroots>\n          <root url=\"file://$MODULE_DIR$/web\" relative=\"/\" />\n        </webroots>\n        <sourceRoots />\n      </configuration>\n    </facet>\n  </component>\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\n    <exclude-output />\n    <content url=\"file://$MODULE_DIR$\">\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\n    </content>\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"library\" name=\"Java EE 6-Java EE 6\" level=\"project\" />\n    <orderEntry type=\"module-library\">\n      <library>\n        <CLASSES>\n          <root url=\"file://$MODULE_DIR$/web/WEB-INF/lib\" />\n        </CLASSES>\n        <JAVADOC />\n        <SOURCES />\n        <jarDirectory url=\"file://$MODULE_DIR$/web/WEB-INF/lib\" recursive=\"false\" />\n      </library>\n    </orderEntry>\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Servlet.iml b/Servlet.iml
+--- a/Servlet.iml	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ b/Servlet.iml	(date 1653361835169)
+@@ -20,16 +20,9 @@
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+-    <orderEntry type="module-library">
+-      <library>
+-        <CLASSES>
+-          <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
+-        </CLASSES>
+-        <JAVADOC />
+-        <SOURCES />
+-        <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
+-      </library>
+-    </orderEntry>
++    <orderEntry type="library" name="lib" level="project" />
++    <orderEntry type="library" name="lib1" level="project" />
++    <orderEntry type="library" name="lib2" level="project" />
++    <orderEntry type="library" name="Servlet_war_exploded" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/libraries/Servlet_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Servlet_war_exploded.xml b/.idea/libraries/Servlet_war_exploded.xml
+new file mode 100644
+--- /dev/null	(date 1653361835265)
++++ b/.idea/libraries/Servlet_war_exploded.xml	(date 1653361835265)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="Servlet_war_exploded">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/servlet-api.jar!/" />
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/jstl-1.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/standard-1.1.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/mysql-connector-java-8.0.16.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/lib.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\n  <library name=\"lib\">\n    <CLASSES>\n      <root url=\"jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/\" />\n      <root url=\"jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar!/\" />\n    </CLASSES>\n    <JAVADOC />\n    <SOURCES />\n  </library>\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/lib.xml b/.idea/libraries/lib.xml
+--- a/.idea/libraries/lib.xml	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ b/.idea/libraries/lib.xml	(date 1653361835281)
+@@ -1,8 +1,14 @@
+ <component name="libraryTable">
+   <library name="lib">
+     <CLASSES>
+-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/" />
+-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES />
+Index: .idea/libraries/lib1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/lib1.xml b/.idea/libraries/lib1.xml
+new file mode 100644
+--- /dev/null	(date 1653361835293)
++++ b/.idea/libraries/lib1.xml	(date 1653361835293)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="lib1">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.16.jar!/" />
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/WEB-INF/lib/jstl-1.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/WEB-INF/lib/standard-1.1.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/WEB-INF/lib/servlet-api.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/lib2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/lib2.xml b/.idea/libraries/lib2.xml
+new file mode 100644
+--- /dev/null	(date 1653361835305)
++++ b/.idea/libraries/lib2.xml	(date 1653361835305)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="lib2">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/" />
++      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar!/" />
++      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_16\" project-jdk-name=\"16\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ b/.idea/misc.xml	(date 1653361977882)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="16" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/artifacts/Servlet_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ArtifactManager\">\n  <artifact type=\"exploded-war\" name=\"Servlet:war exploded\">\n    <output-path>$PROJECT_DIR$/out/artifacts/Servlet_war_exploded</output-path>\n    <root id=\"root\">\n      <element id=\"directory\" name=\"WEB-INF\">\n        <element id=\"directory\" name=\"classes\">\n          <element id=\"module-output\" name=\"Servlet\" />\n        </element>\n        <element id=\"directory\" name=\"lib\">\n          <element id=\"file-copy\" path=\"$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar\" />\n          <element id=\"file-copy\" path=\"$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar\" />\n          <element id=\"file-copy\" path=\"$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar\" />\n          <element id=\"file-copy\" path=\"$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar\" />\n        </element>\n      </element>\n      <element id=\"javaee-facet-resources\" facet=\"Servlet/web/Web\" />\n      <element id=\"dir-copy\" path=\"$PROJECT_DIR$/web/WEB-INF/lib\" />\n    </root>\n  </artifact>\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/Servlet_war_exploded.xml b/.idea/artifacts/Servlet_war_exploded.xml
+--- a/.idea/artifacts/Servlet_war_exploded.xml	(revision d94ad9459c1c19a4c8d90befad082d038d202578)
++++ b/.idea/artifacts/Servlet_war_exploded.xml	(date 1653361991937)
+@@ -6,15 +6,8 @@
+         <element id="directory" name="classes">
+           <element id="module-output" name="Servlet" />
+         </element>
+-        <element id="directory" name="lib">
+-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
+-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" />
+-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar" />
+-        </element>
+       </element>
+       <element id="javaee-facet-resources" facet="Servlet/web/Web" />
+-      <element id="dir-copy" path="$PROJECT_DIR$/web/WEB-INF/lib" />
+     </root>
+   </artifact>
+ </component>
+\ No newline at end of file
+Index: ../../python/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../python/.idea/vcs.xml b/../../python/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1653363394613)
++++ b/../../python/.idea/vcs.xml	(date 1653363394613)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../../python/.idea/python.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../python/.idea/python.iml b/../../python/.idea/python.iml
+new file mode 100644
+--- /dev/null	(date 1653366125205)
++++ b/../../python/.idea/python.iml	(date 1653366125205)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="jdk" jdkName="Python 3.10 (main)" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../../python/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../python/.idea/modules.xml b/../../python/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1653363394529)
++++ b/../../python/.idea/modules.xml	(date 1653363394529)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/python.iml" filepath="$PROJECT_DIR$/.idea/python.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../../python/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../python/.idea/misc.xml b/../../python/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1653366125229)
++++ b/../../python/.idea/misc.xml	(date 1653366125229)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (main)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: ../../python/.idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../python/.idea/inspectionProfiles/profiles_settings.xml b/../../python/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1653363394601)
++++ b/../../python/.idea/inspectionProfiles/profiles_settings.xml	(date 1653363394601)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
