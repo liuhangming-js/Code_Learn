@@ -86,7 +86,11 @@ void FIFO_solve()
         if(!in[page[i]])
         {
             /*--------------*/
-            //请补全该部分
+            pin[ptr++] = page[i];
+			in[page[i]] = true;
+			in[page[ptr]] = false;
+			fault_n++;
+			ptr %= size;
             /*--------------*/
         }
 
@@ -97,7 +101,7 @@ void FIFO_solve()
 void LRU_solve()
 {
     int ltu[maxp]; //last_time_use
-    int ti = 1;    //æ¨¡ææ¶é´
+    int ti = 1;    // 模拟时间
     int fault_n = 0;
     memset(ltu, 0, sizeof(ltu));
     memset(in, false, sizeof(in));
@@ -108,28 +112,30 @@ void LRU_solve()
     {
         if(!in[page[i]])
         {
-            //å¯»æ¾lru
+            //寻找lru
             min=1000000; ptr=0;
             for(j=0; j<size; j++)
             {
                 if(ltu[j] < min)
                 {
                     /*--------------*/
-                    //è¯·è¡¥å¨è¯¥é¨å
+                    ptr = j;
+					min = ltu[j];
                     /*--------------*/
                 }
             }
-            //æ¿æ¢æåå¥ 
+            //替换或写入
             if(pin[ptr] != -1){
                  in[pin[ptr]] = false;
             }
             /*--------------*/
-            //è¯·è¡¥å¨è¯¥é¨å
+            in[page[i]] = true;
+			pin[ptr] = page[i];
             /*--------------*/
             fault_n++;
             ltu[ptr] = ti++;
         }
-        else//å·²ç»å¨åå­éååªéæ´æ¹æè¿ä½¿ç¨æ¶é´    
+        else//已经在内存里则只需更改最近使用时间    
     {
             for(j=0; j<size; j++)
                 if(pin[j] == page[i])
@@ -152,7 +158,7 @@ void OPT_solve()
     memset(in, false, sizeof(in));
     memset(ntu, -1, sizeof(ntu));
 
-    //é¢è°é¡µå¡«æ»¡
+    //预调页填满
     int ptr = 0;
     for(i=0; i<maxn && fault_n<size; i++)
     {
@@ -165,14 +171,14 @@ void OPT_solve()
         }
     }
 
-    //åå§åntuæ°ç»
+    //初始化ntu数组
     ptr = 0;
     for(j=i; j<maxn && ptr<32; j++)
     {
         if(ntu[page[j]] == -1)
         {
             /*--------------*/
-            //è¯·è¡¥å¨è¯¥é¨å
+            //请补全该部分
             /*--------------*/
         }
     }
@@ -193,7 +199,7 @@ void OPT_solve()
                 if(ntu[pin[j]] > max)
                 {
                     /*--------------*/
-                    //è¯·è¡¥å¨è¯¥é¨å
+                    //请补全该部分
                     /*--------------*/
                 }
             }

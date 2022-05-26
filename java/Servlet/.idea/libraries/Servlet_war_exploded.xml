@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Servlet_war_exploded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/standard-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Servlet_war_exploded/mysql-connector-java-8.0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
