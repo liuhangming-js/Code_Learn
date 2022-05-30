@@ -1,13 +1,14 @@
 .model small
 .stack
-.data 
-    string  db 'Hello,World!', 0dh, 0ah, '$'
+.data
+X   db 'a', 6
+    db 2 dup(100), ?
+Y   db 'ABC'
 .code
 .startup
-    mov dx, offset string
-    mov ah, 9
-    int 21h
-    mov ax, 4c00h
+    mov ax, seg X
+    mov dl, al
+    mov al, 02h
     int 21h
 .exit 0
 end
