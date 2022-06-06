@@ -57,7 +57,8 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            <c:forEach items="${list }" var="stu">
+                            <jsp:useBean id="list" scope="request" type="java.util.List"/>
+                            <c:forEach items="${list}" var="stu">
                                 <tr class="gradeX">
                                     <td>${stu.name}</td>
                                     <td>${stu.sex}</td>
