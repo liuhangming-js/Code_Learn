@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c457edf6-e207-48f5-8269-b88348b20208" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C&amp;C++_learn/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../C&amp;C++_learn/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C&amp;C++_learn/algrithm_lesson/递归和分治/快排.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../C&amp;C++_learn/algrithm_lesson/递归和分治/快排.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656589897459</updated>
       <workItem from="1656589898636" duration="5182000" />
-      <workItem from="1656637321990" duration="1911000" />
+      <workItem from="1656637321990" duration="2507000" />
     </task>
     <servers />
   </component>
