@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c457edf6-e207-48f5-8269-b88348b20208" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/learn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_learn.md" beforeDir="false" afterPath="$PROJECT_DIR$/python_learn.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <updated>1656589897459</updated>
       <workItem from="1656589898636" duration="5182000" />
       <workItem from="1656637321990" duration="2507000" />
-      <workItem from="1657161273938" duration="4370000" />
+      <workItem from="1657161273938" duration="7276000" />
     </task>
     <servers />
   </component>
@@ -106,6 +105,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main 覆盖结果" MODIFIED="1657161502797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$learn__1_.coverage" NAME="learn (1) 覆盖结果" MODIFIED="1657168000971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$learn__1_.coverage" NAME="learn (1) 覆盖结果" MODIFIED="1657168057377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
