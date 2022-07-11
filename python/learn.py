@@ -61,3 +61,39 @@ print('J' + word[1:])
 
 # 内置函数len()返回字符串长度
 print(len(word))
+
+# 列表定义,索引,切片,浅拷贝
+squares = [1, 4, 9, 16, 25]
+print(squares)
+print(squares[-1])
+print(squares[-3:])
+print(squares[:])  # 浅拷贝
+
+# 合并,改变,添加
+print(squares + [36, 49, 64, 81, 100])
+
+cubes = [1, 8, 27, 64, 125]
+cubes[3] = 64
+print(cubes)
+
+cubes[1:3] = []
+print(cubes)
+
+cubes.append(6 ** 3)
+print(cubes)
+
+# 函数len()
+print(len(cubes))
+
+# 嵌套列表
+a = ['a', 'b', 'c']
+n = [1, 2, 3]
+x = [a, n]
+print(x)
+print(x[0][1])
+
+# 走向编程的第一步(斐波那契)
+a, b = 0, 1
+while a < 10:
+    print(a, end=',')
+    a, b = b, a+b
